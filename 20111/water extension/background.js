@@ -1,6 +1,4 @@
-// Copyright 2017 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+
 'use strict';
 
 chrome.alarms.onAlarm.addListener(function() {
@@ -9,7 +7,7 @@ chrome.alarms.onAlarm.addListener(function() {
       type:     'basic',
       iconUrl:  'stay_hydrated.png',
       title:    'Time to Hydrate',
-      message:  'Everyday I\'m Guzzlin\'!',
+      message:  'Drink Water!!!',
       buttons: [
         {title: 'Keep it Flowing.'}
       ],
